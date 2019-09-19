@@ -1,0 +1,156 @@
+/* epk css */
+body #epk_box{
+	width:770px;
+	height:860px;
+	float:right;
+	margin:0 130px 0 0;
+	background-color:#ffffff;
+}
+body #title_name{
+	font-size:80px;
+	font-weight:bold;
+	position:absolute;
+	/*left:450px;*/
+	right:1170px;
+	top:210px;
+	background-color:#ffffff;
+	z-index:5;
+}
+body #title_name ul{
+	margin:0 17px;
+}
+body #title_name ul li{
+	list-style-type:none;
+	display:inline-block;
+	margin:0 -8px;
+}
+body #slide_photo img{
+	width:770px;
+	height:440px;
+}
+body #bio_box{
+	float:left;
+	margin-left:20px;
+}
+body #bio_profile{
+	list-style-type:none;
+}
+body .bio_content{
+	margin:0 0 15px 0;
+	color:#3a3a3a;
+}
+body #bio_title{
+	font-size:30px;
+	margin:30px 0 30px 0;
+	color:#ff8bda;
+}
+body #awards{
+	float:left;
+	list-style-type:none;
+	margin-left:45px;
+}
+body .awards_list{
+	color:#3a3a3a;
+}
+body .awards_discription{
+	margin:0 0 15px 0;
+	color:#9a9a9a;
+}
+body #awards_title{
+	font-size:30px;
+	margin:30px 0 30px 0;
+	color:#ff8bda;
+}
+body #drama{
+	float:left;
+	list-style-type:none;
+	margin-left:45px;
+}
+body .drama_list a{
+	color:#3a3a3a;
+	text-decoration:none;
+}
+body .drama_discription {
+	margin:0 0 15px 0;
+}
+body .drama_discription a{
+	text-decoration:none;
+	color:#9a9a9a;
+}
+body #drama_title{
+	font-size:30px;
+	margin:30px 0 30px 0;
+	color:#ff8bda;
+}
+body #video_title{
+	margin:15px 0 -20px 0;
+	font-size:20px;
+	color:#ff8bda;
+}
+
+body #video_box{
+	width:770px;
+}
+body #line1{
+	margin-top:30px;
+}
+body #footer1{
+	font-size:11px;
+	color:#a6a6a6;
+	margin:5px 0 10px 0;
+}
+body #down_img{
+	font-size:16px;
+	text-align:center;
+	vertical-align:middle;
+	color:#3a3a3a;
+}
+body #down_img_link{
+	position:absolute;
+	background-color:#ffffff;
+	display:block;
+	width:180px;
+	line-height:50px;
+	top:450px;
+	text-decoration:none;
+	z-index:5;
+}
+body #book_title{
+	margin:50px 0 30px 0;
+	color:#ff8bda;
+	font-size:20px;
+}
+body #booking ul li{
+	list-style:none;
+	margin:30px 0 40px 0;
+}
+body .day{
+	font-size:38px;
+	margin:0 8px 0 120px;
+}
+body .mon{
+	font-size:20px;
+}
+body .locate{
+	margin:0 0 0 70px;
+}
+body .book_btn{
+	background-color:#ffffff;
+	border:solid 2px #000000;
+	width:100px;
+	height:40px;
+	font-size:24px;
+	float:right;
+	margin:10px 100px 0 0;
+}
+body .book_btn:hover{
+	background:#000000;
+	color:#ffffff;
+	border-color:#000000;
+}
+body #up_icon img{
+	position:absolute;
+	top:1960px;
+	right:390px;
+	max-width:40px;
+}
