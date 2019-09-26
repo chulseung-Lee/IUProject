@@ -1,0 +1,40 @@
+/*ALL css*/
+*{
+	margin:0;
+	padding:0;
+}
+.clear{
+	clear:both;
+}
+body{
+	font-family:"¸¼Àº °íµñ", "µ¸À½";
+	overflow-y:scroll;
+}
+body #wrap{
+	padding:0 335px;
+}
+body #main_menu{
+	padding:50px 100px 20px 0;
+	list-style-type:none;
+	float:right;
+}
+body #main_menu ul li{
+	display:inline;
+	margin-right:39px;
+}
+body #main_menu ul a:link{
+	text-decoration:none;
+	color:#121212;
+}
+body #main_menu ul a:visited{
+	text-decoration:none;
+	color:#121212;
+}
+body #main_menu ul a:hover{
+	text-decoration:none;
+	color:#ff8bda;
+}
+body #main_menu ul a:active{
+	text-decoration:none;
+	color:#121212;
+}
