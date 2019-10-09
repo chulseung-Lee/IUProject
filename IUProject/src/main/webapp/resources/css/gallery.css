@@ -1,0 +1,65 @@
+/*°¶·¯¸® css*/
+body #photo_table{
+	float:right;
+	margin-right:120px;
+}
+body #content #photo_table tr td div{
+	border:solid 1px #cacaca;
+	width:260px;
+	height:250px;
+	margin:10px 10px;
+	overflow:hidden;
+	position:relative;
+	z-index:5;
+}
+body #content #photo_table tr td div:hover{
+	border-color:#ff8bda;
+}
+body #content #photo_table tr td div img{
+	max-width:260px;
+}
+body #title_name{
+	font-size:65px;
+	font-weight:bold;
+	position:absolute;
+	/*left:450px;*/
+	right:1240px;
+	top:210px;
+	background-color:#ffffff;
+	z-index:10;
+}
+body #title_name ul{
+	margin:0 17px;
+}
+body #title_name ul li{
+	list-style-type:none;
+	display:inline-block;
+	margin:0 -8px;
+}
+body #pt9{
+}
+#line1{
+	margin:0 125px 0 245px;
+	display:block;
+}
+#footer{
+	font-size:11px;
+	color:#a6a6a6;
+	margin:5px 245px;
+}
+#big_size{
+	opacity:0;
+	border:solid 1px #ff8bda;
+	position:absolute;
+	width:842px;
+	height:810px;
+	top:100px;
+	right:460px;
+	background:#ffffff;
+	z-index:1;
+	overflow:hidden;
+	display:none;
+}
+#bigger_img{
+	width:842px;
+}
