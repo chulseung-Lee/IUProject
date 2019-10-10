@@ -1,0 +1,61 @@
+/* about css */
+body #content{  
+	width:780px;
+	height:820px;
+	float:right;
+	margin-right:125px;
+}
+body #content hr{
+	margin:5px 0;
+}
+body #content p{
+	font-size:11px;
+	color:#a6a6a6;
+}
+body #title_name{
+	font-size:75px;
+	font-weight:bold;
+	position:absolute;
+	/*left:450px;*/
+	right:1120px;
+	top:200px;
+	background-color:#ffffff;
+}
+body #title_name ul{
+	margin:0 17px;
+}
+body #title_name ul li{
+	list-style-type:none;
+	display:inline-block;
+	margin:0 -8px;
+}
+body #main_photo{
+	max-width:780px;
+}
+body #txt1{
+	/*border:solid 1px #121212;*/
+	width:365px;
+	max-height:350px;
+	float:left;
+	padding-top:20px;
+}
+body #txt1 dl dt{
+	font-weight:700;
+	font-size:20px;
+	color:#9352ab;
+	margin-bottom:5px;
+}
+body #txt1 dl dd{
+	font-size:12px;
+	color:#9352ab;
+	text-align:right;
+	margin-bottom:20px;
+}
+body #txt2{
+	font-size:15px;
+	/*border:solid 1px #121212;*/
+	width:360px;
+	max-height:350px;
+	float:right;
+	padding-top:20px;
+}
