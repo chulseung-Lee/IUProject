@@ -1,4 +1,4 @@
-package com.iup.study;
+package com.study.iup;
 
 import java.text.DateFormat;
 import java.util.Date;
