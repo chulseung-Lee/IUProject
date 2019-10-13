@@ -8,8 +8,8 @@
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
-  <link rel="stylesheet" type="text/css" href="/study/resources/css/all.css">
-  <link rel="stylesheet" type="text/css" href="/study/resources/css/home.css">
+  <link rel="stylesheet" type="text/css" href="/iup/resources/css/all.css">
+  <link rel="stylesheet" type="text/css" href="/iup/resources/css/home.css">
   <style>
 	body #menu1{
 		color:#ff8bda;
