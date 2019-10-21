@@ -44,7 +44,7 @@
 		<div class="clear"></div>
 		<section id="content">
 			<article id="photo">
-				<img id="main_photo" src="/iup/resources/img/main.jpg"/>
+				<img id="main_photo" src="/iup/resources/img/home/${vo.HOME_SRC}"/>
 			</article>
 			<article id="text_area">
 				<h5 id="p_name">이지은 // IU</h5>

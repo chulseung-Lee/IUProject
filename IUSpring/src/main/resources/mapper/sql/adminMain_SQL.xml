@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="adminMain">
+	<!-- com.study.vo.HomeVO -->
+	
+	<select id="selectPhotoOne" parameterType="com.study.vo.HomeVO" resultType="com.study.vo.HomeVO">
+		<![CDATA[
+			SELECT 
+				HOME_SRC,
+				HOME_TYPE,
+				HOME_VIEWNAME 
+			FROM 
+				HOME 
+			WHERE 
+				HOME_VIEWNAME=#{HOME_VIEWNAME}
+		]]>
+	</select>
+	
+	<select id="selectPhotoList" resultType="com.study.vo.HomeVO">
+		<![CDATA[
+			SELECT 
+				HOME_SRC,
+				HOME_TYPE,
+				HOME_VIEWNAME 
+			FROM 
+				HOME 
+			ORDER BY 
+				HOME_VIEWNAME ASC
+		]]>
+	</select>
+	
+	<insert id="insertPhoto" parameterType="com.study.vo.HomeVO">
+		<![CDATA[
+			INSERT INTO HOME 
+				(
+				  HOME_SRC,
+				  HOME_VIEWNAME,
+				  HOME_TYPE 
+				) 
+			VALUES 
+				(
+				  #{HOME_SRC},
+				  #{HOME_VIEWNAME},
+				  #{HOME_TYPE}
+				)
+		]]>
+	</insert>
+	
+	<update id="deselectOne" parameterType="com.study.vo.HomeVO">
+		<![CDATA[
+			UPDATE HOME SET 
+				HOME_TYPE='DESELECT' 
+			WHERE 
+				HOME_SRC=#{HOME_SRC}
+		]]>
+	</update>
+	
+	<update id="updatePhoto" parameterType="com.study.vo.HomeVO">
+		<![CDATA[
+			UPDATE HOME SET 
+				HOME_TYPE='SELECTED' 
+			WHERE 
+				HOME_VIEWNAME=#{HOME_VIEWNAME}
+		]]>
+	</update>
+	
+	<delete id="deletePhoto" parameterType="com.study.vo.HomeVO">
+		<![CDATA[
+			DELETE FROM HOME 
+			WHERE 
+				HOME_SRC=#{HOME_SRC}
+		]]>
+	</delete>
+	
+</mapper>
